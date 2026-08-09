@@ -1,0 +1,25 @@
+# Everything welcome, including AI crawlers and answer engines.
+
+User-agent: *
+Allow: /
+
+# Training crawlers
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: anthropic-ai
+User-agent: CCBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: meta-externalagent
+Allow: /
+
+# Live retrieval — someone is asking about me right now
+User-agent: ChatGPT-User
+User-agent: OAI-SearchBot
+User-agent: Claude-User
+User-agent: Claude-SearchBot
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+Allow: /
+
+Sitemap: https://franktindle.com/sitemap.xml

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Frank Tindle — Working with me</title>
+<meta name="description" content="What it's like to work in an operations team I run. Thirty-one years, apprentices to managers.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --ink:#16211f; --petrol:#123832; --petrol-deep:#0c2723;
+  --paper:#fbfaf7; --paper-dim:#f0eee8;
+  --brass:#b8874a; --slate:#6b7671;
+  --line:rgba(22,33,31,.14); --line-light:rgba(251,250,247,.18);
+  --display:"Instrument Serif",Georgia,serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,monospace;
+  --gutter:clamp(1.25rem,5vw,5rem);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}
+}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);
+  font-size:clamp(1rem,.96rem + .2vw,1.09rem);line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--brass);outline-offset:3px;border-radius:2px}
+.wrap{max-width:64rem;margin:0 auto;padding-inline:var(--gutter)}
+.eyebrow{font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--brass)}
+
+.btn{display:inline-block;font-family:var(--mono);font-size:.78rem;
+  letter-spacing:.1em;text-transform:uppercase;text-decoration:none;
+  padding:.72rem 1.35rem;border:1px solid currentColor;
+  transition:background .18s ease,color .18s ease;white-space:nowrap}
+.btn-solid{background:var(--brass);border-color:var(--brass);color:var(--petrol-deep);font-weight:500}
+.btn-solid:hover{background:var(--paper);border-color:var(--paper)}
+.btn-ghost{color:var(--paper)}
+.btn-ghost:hover{background:var(--paper);color:var(--petrol-deep)}
+
+/* hero */
+.hero{background:var(--petrol);color:var(--paper);padding-block:clamp(3.5rem,10vw,7rem)}
+.hero h1{font-family:var(--display);font-weight:400;
+  font-size:clamp(2.3rem,6.5vw,4.4rem);line-height:1.04;letter-spacing:-.015em;
+  margin-block:1rem .95rem;max-width:18ch;text-wrap:balance}
+.hero h1 em{font-style:italic;color:var(--brass)}
+.hero .standfirst{font-size:clamp(1.05rem,1rem + .5vw,1.28rem);
+  color:rgba(251,250,247,.8);max-width:46ch}
+.hero-actions{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:2.1rem}
+
+/* figures */
+.figures{background:var(--petrol-deep);color:var(--paper);
+  border-top:1px solid var(--line-light);padding-block:2.5rem}
+.figures dl{display:grid;gap:1.75rem 2rem;grid-template-columns:repeat(2,1fr)}
+@media(min-width:48rem){.figures dl{grid-template-columns:repeat(4,1fr)}}
+.figures dt{font-family:var(--mono);font-size:.68rem;letter-spacing:.13em;
+  text-transform:uppercase;color:rgba(251,250,247,.5);margin-bottom:.35rem}
+.figures dd{font-family:var(--display);font-size:clamp(1.6rem,3.4vw,2.3rem);line-height:1}
+
+/* useful for */
+.section{padding-block:clamp(3.5rem,8vw,6rem)}
+.section-head{margin-bottom:clamp(2rem,4vw,2.75rem)}
+.section-head h2{font-family:var(--display);font-weight:400;
+  font-size:clamp(1.8rem,3.6vw,2.6rem);line-height:1.1;margin-top:.55rem;max-width:22ch}
+.areas{display:grid;gap:1rem}
+.area{border-top:1px solid var(--line);padding-top:1.15rem;display:grid;gap:1rem}
+@media(min-width:52rem){.area{grid-template-columns:14rem 1fr;gap:2.5rem;align-items:start}}
+.area h3{font-size:1.08rem;font-weight:600}
+.area p{color:var(--slate);max-width:56ch}
+.area p b{color:var(--ink);font-weight:500}
+
+/* about */
+.about{background:var(--paper-dim)}
+.about-grid{display:grid;gap:1.5rem}
+@media(min-width:52rem){.about-grid{grid-template-columns:14rem 1fr;gap:2.5rem}}
+.about p{max-width:58ch}
+.about p + p{margin-top:.9rem;color:var(--slate)}
+.portrait{display:block;width:100%;max-width:11rem;height:auto;aspect-ratio:1;
+  object-fit:cover;border-radius:2px;margin-bottom:1.1rem;filter:saturate(.9)}
+
+/* book */
+.book{background:var(--petrol);color:var(--paper);padding-block:clamp(3.5rem,8vw,6rem)}
+.book h2{font-family:var(--display);font-weight:400;
+  font-size:clamp(1.9rem,4vw,2.9rem);line-height:1.08;margin-block:.6rem .9rem;max-width:20ch}
+.book p{color:rgba(251,250,247,.78);max-width:46ch;margin-bottom:1.9rem}
+.book-embed{margin-top:2.4rem;border:1px solid var(--line-light);background:var(--paper)}
+.book-embed iframe{display:block;width:100%;height:38rem;border:0}
+
+.foot{background:var(--petrol-deep);color:rgba(251,250,247,.5);
+  border-top:1px solid var(--line-light);padding-block:1.7rem;
+  font-family:var(--mono);font-size:.72rem;letter-spacing:.06em}
+.foot .wrap{display:flex;flex-wrap:wrap;gap:.75rem 1.5rem;justify-content:space-between}
+.foot a{text-decoration:none}
+.foot a:hover{color:var(--paper)}
+</style>
+</head>
+<body>
+
+<section class="hero" id="top">
+  <div class="wrap">
+    <p class="eyebrow">Frank Tindle · Working with me</p>
+    <h1>I build good teams and then <em>get out of their way</em>.</h1>
+    <p class="standfirst">Thirty-one years running operations. The part I'd put first isn't the buildings or the migrations — it's the people who joined on an apprenticeship and left as managers.</p>
+    <div class="hero-actions">
+      <a class="btn btn-solid" href="#talk">Have a chat</a>
+      <a class="btn btn-ghost" href="https://www.linkedin.com/in/ftindle">LinkedIn</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">What you'd actually get</p>
+      <h2>The bits most job ads leave out.</h2>
+    </div>
+    <div class="areas">
+
+      <article class="area">
+        <h3>Scope you won't get elsewhere</h3>
+        <p>IT, workplace support, facilities, physical and cyber security, events, procurement. <b>You'd see more of how a business actually works</b> than a pure IT role ever shows you — and sit close enough to the leadership team to understand why the decisions get made.</p>
+      </article>
+
+      <article class="area">
+        <h3>Development that isn't a tickbox</h3>
+        <p>Real one-to-ones, twice-yearly appraisals, team health surveys, psychometrics and 360 feedback. <b>Not because HR asked — because I use them.</b> I've taken people from apprenticeship to management, and succession planning is something I do rather than something I write down.</p>
+      </article>
+
+      <article class="area">
+        <h3>A standard worth hitting</h3>
+        <p>We moved the service desk from SLAs to XLAs — CSAT and NPS alongside the ticket counts. <b>"Was it done" is the floor. "How well was it done" is the job.</b> If that distinction matters to you, you'll enjoy the team.</p>
+      </article>
+
+      <article class="area">
+        <h3>Straight answers, including the bad ones</h3>
+        <p>I've run a function through two redundancy cycles in 17 months and absorbed people from departments that were closing. <b>You'll hear what's happening from me before you hear it anywhere else.</b> No fuss, no jargon — that applies to the difficult conversations too.</p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section class="book" id="talk">
+  <div class="wrap">
+    <p class="eyebrow">Next step</p>
+    <h2>Not always hiring. Always happy to talk.</h2>
+    <p>If you work in operations, IT or workplace and want a sense of what the next step might look like — book twenty minutes. No pitch, no CV required.</p>
+    <a class="btn btn-solid" href="mailto:ft@franktindle.com">Email me</a>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap">
+    <span>© <span id="yr">2026</span> Frank Tindle</span>
+    <a href="mailto:ft@franktindle.com">ft@franktindle.com</a>
+  </div>
+</footer>
+<script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+</body>
+</html>
