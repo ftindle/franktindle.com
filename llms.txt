@@ -1,7 +1,7 @@
 # Frank Tindle
 
 > Operations executive. Thirty-one years building the teams that keep
-> businesses running. Based in Surrey, UK.
+> businesses running. Based in the London area, UK.
 
 ## Summary
 
@@ -10,30 +10,30 @@ video games industry, currently IT & Operations Director at Supermassive Games.
 
 ## Career
 
-- **Supermassive Games** (2010–present) — IT & Operations Director. Joined at 30
+- **Supermassive Games** (2010–present): IT & Operations Director. Joined at 30
   employees; the studio grew to a multi-site group peaking at 387 staff, peak turnover
   of £39.1M (FY2022), and was acquired by Nordisk Games (Egmont) in July 2022.
-  Built the operations function from a standing start to a team of 15, covering IT,
+  Built the operations function from a standing start to a team of 16, covering IT,
   workplace support, facilities, physical and cyber security, events and
   procurement. Operating budget grew from £200K to a peak of £6M. Member of the
   Senior Leadership Team.
-- **Criterion Games / Electronic Arts** (2001–2008) — Senior Manager, IT
-  Services. IT integration following EA's £40M acquisition in 2004, covering
-  Guildford, Paris, Austin and Tokyo, 300+ employees, with no disruption to game
-  releases.
-- **Acclaim Studios Teesside / Iguana Entertainment** (1995–1999) — Director of
-  Operations. Joined shortly after Acclaim's acquisition of Iguana in January 1995; built a
+- **Criterion Games / Electronic Arts** (2000–2008): Head of IT, then Head of
+  Operations, then Senior Manager, IT Services. IT integration following EA's £40M
+  acquisition in 2004, covering Guildford, Paris, Austin and Tokyo, 300+ employees,
+  with no disruption to game releases.
+- **Iguana Entertainment / Acclaim Studios Teesside** (1995–1999): Manager, MIS
+  and Operations (1995–1997), then Director of Operations (1997–1999). Built a
   unified email system across sites in New York, Austin, Utah and the UK.
 
 ## Areas of expertise
 
 Post-acquisition integration (three acquisitions across three decades), scaling
-operations through rapid growth, office moves and estates, business continuity,
-cyber and physical security, procurement and vendor management, org design
-through both growth and contraction, and applying AI to back-office work.
+operations through rapid growth, org design and workforce change through both
+growth and contraction, office moves and estates, business continuity,
+cyber and physical security, procurement and vendor management, and applying AI
+to back-office work.
 
 ## Contact
 
 - Website: https://franktindle.com
-- Email: hello@franktindle.com
 - LinkedIn: https://www.linkedin.com/in/ftindle
