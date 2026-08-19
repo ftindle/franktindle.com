@@ -6,32 +6,44 @@
 ## Summary
 
 Frank Tindle is an operations and technology executive with 31 years in the
-video games industry, currently IT & Operations Director at Supermassive Games.
+video games industry, across multiple BAFTA-winning studios, currently
+IT & Operations Director at Supermassive Games. Open to Operations Director,
+IT Director and Head of Operations roles, and to fractional or advisory
+arrangements.
 
 ## Career
 
-- **Supermassive Games** (2010–present): IT & Operations Director. Joined at 30
+- **Supermassive Games Ltd** (2010–present): IT & Operations Director. Joined at 30
   employees; the studio grew to a multi-site group peaking at 387 staff, peak turnover
   of £39.1M (FY2022), and was acquired by Nordisk Games (Egmont) in July 2022.
   Built the operations function from a standing start to a team of 16, covering IT,
   workplace support, facilities, physical and cyber security, events and
   procurement. Operating budget grew from £200K to a peak of £6M. Member of the
-  Senior Leadership Team.
-- **Criterion Games / Electronic Arts** (2000–2008): Head of IT, then Head of
-  Operations, then Senior Manager, IT Services. IT integration following EA's £40M
-  acquisition in 2004, covering Guildford, Paris, Austin and Tokyo, 300+ employees,
+  Senior Leadership Team. Through the industry-wide contraction, ran the function
+  down from 16 to 9 as the group went from 387 people to around 170, with service
+  held at or above HDI and Gartner benchmarks throughout and every staff
+  satisfaction rating in the most recent reported weeks at the top mark.
+- **Criterion Software Ltd / Electronic Arts Inc** (2000–2008): Head of IT, then Head of
+  Operations, then Senior Manager, IT Services. Dual responsibility to Criterion Games
+  (Burnout franchise — three BAFTAs for Burnout 3: Takedown in 2005) and the RenderWare
+  middleware business. Criterion was Canon-owned until EA's £40M acquisition in 2004;
+  led the IT integration covering Guildford, Paris, Austin and Tokyo, 300+ employees,
   with no disruption to game releases.
-- **Iguana Entertainment / Acclaim Studios Teesside** (1995–1999): Manager, MIS
-  and Operations (1995–1997), then Director of Operations (1997–1999). Built a
-  unified email system across sites in New York, Austin, Utah and the UK.
+- **Iguana Entertainment Ltd / Acclaim Entertainment Inc** (1995–1999): Manager, MIS
+  and Operations (1995–1997), then Director of Operations (1997–1999) at Acclaim
+  Studios Teesside. Built a unified email system across sites in New York, Austin,
+  Utah and the UK.
 
 ## Areas of expertise
 
-Post-acquisition integration (three acquisitions across three decades), scaling
-operations through rapid growth, org design and workforce change through both
-growth and contraction, office moves and estates, business continuity,
+Post-acquisition integration (three acquisitions across three decades; four
+corporate parents — Canon, Acclaim, EA, Egmont — spanning SME to enterprise),
+scaling operations through rapid growth, org design and workforce change through
+both growth and contraction, office moves and estates, business continuity,
 cyber and physical security, procurement and vendor management, and applying AI
-to back-office work.
+to back-office work — including an automated weekly IT service report built with
+Claude and the Freshservice MCP: live ticket data, AI-drafted narrative,
+human-reviewed before sending, benchmarked against HDI and Gartner.
 
 ## Contact
 
