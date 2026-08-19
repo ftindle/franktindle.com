@@ -26,6 +26,8 @@
   "worksFor": { "@type": "Organization", "name": "Supermassive Games" },
   "alumniOf": [
     { "@type": "Organization", "name": "Criterion Games" },
+    { "@type": "Organization", "name": "Criterion Software" },
+    { "@type": "Organization", "name": "Iguana Entertainment" },
     { "@type": "Organization", "name": "Acclaim Entertainment" }
   ],
   "address": { "@type": "PostalAddress", "addressRegion": "Greater London", "addressCountry": "GB" },
@@ -81,6 +83,8 @@ a{color:inherit}
 .hero .standfirst{font-size:clamp(1.05rem,1rem + .5vw,1.28rem);
   color:rgba(251,250,247,.8);max-width:46ch}
 .hero-actions{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:2.1rem}
+.employers{font-family:var(--mono);font-size:.72rem;letter-spacing:.13em;
+  text-transform:uppercase;color:rgba(251,250,247,.55);margin-top:2.2rem}
 
 /* figures */
 .figures{background:var(--petrol-deep);color:var(--paper);
@@ -101,6 +105,15 @@ a{color:inherit}
 @media(min-width:52rem){.area{grid-template-columns:14rem 1fr;gap:2.5rem;align-items:start}}
 .area h3{font-size:1.08rem;font-weight:600}
 .area p{color:var(--slate);max-width:56ch}
+
+/* what the studio said */
+.said-grid{display:grid;gap:2rem}
+@media(min-width:52rem){.said-grid{grid-template-columns:1fr 1fr}}
+.said blockquote{border-left:2px solid var(--brass);padding-left:1.2rem;max-width:56ch}
+.said blockquote p{font-family:var(--display);font-size:clamp(1.15rem,2vw,1.45rem);line-height:1.35}
+.said cite{font-family:var(--mono);font-size:.7rem;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--slate);font-style:normal;display:block;margin-top:.8rem}
+.said .note{margin-top:1.8rem;color:var(--slate);font-size:.95rem;max-width:60ch}
 
 
 /* about */
@@ -139,6 +152,7 @@ a{color:inherit}
       <a class="btn btn-solid js-email" href="https://bookings.cloud.microsoft/bookwithme/user/61244ec64a384a03bab0bd0f76595756%40franktindle.com?anonymous&amp;ismsaljsauthenabled">Email me</a>
       <a class="btn btn-ghost" href="https://bookings.cloud.microsoft/bookwithme/user/61244ec64a384a03bab0bd0f76595756%40franktindle.com?anonymous&amp;ismsaljsauthenabled" target="_blank" rel="noopener">Book a call</a>
     </div>
+    <p class="employers">Supermassive Games · Criterion (Games and Software) · Iguana Entertainment Ltd / Acclaim Inc</p>
   </div>
 </section>
 
@@ -190,6 +204,26 @@ a{color:inherit}
   </div>
 </section>
 
+<section class="section said">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">What the studio said</p>
+      <h2>The people being supported, in their own words.</h2>
+    </div>
+    <div class="said-grid">
+      <blockquote>
+        <p>“Best IT department in the kingdom, no doubt.”</p>
+        <cite>Staff satisfaction return, 2026</cite>
+      </blockquote>
+      <blockquote>
+        <p>“Issue resolved quickly and all software working as intended.”</p>
+        <cite>Staff satisfaction return, 2026</cite>
+      </blockquote>
+    </div>
+    <p class="note">Every satisfaction rating returned in the most recent reported weeks scored the service the top mark — over the period the function ran at its leanest, benchmarked against HDI and Gartner.</p>
+  </div>
+</section>
+
 <section class="section about">
   <div class="wrap about-grid">
     <div>
@@ -207,7 +241,7 @@ a{color:inherit}
   <div class="wrap">
     <p class="eyebrow">Next step</p>
     <h2>Half an hour, no pitch.</h2>
-    <p>I’m open to approaches about senior operations roles. Equally happy to talk if you're scaling, moving, or working out what your operation should look like a year from now. Drop me a line and we'll talk it through.</p>
+    <p>I’m open to approaches about Operations Director, IT Director and Head of Operations roles, and to fractional or advisory arrangements. Equally happy to talk if you're scaling, moving, or working out what your operation should look like a year from now. Drop me a line and we'll talk it through.</p>
     <div class="hero-actions" style="margin-top:0">
       <a class="btn btn-solid js-email" href="https://bookings.cloud.microsoft/bookwithme/user/61244ec64a384a03bab0bd0f76595756%40franktindle.com?anonymous&amp;ismsaljsauthenabled">Email me</a>
       <a class="btn btn-ghost" href="https://bookings.cloud.microsoft/bookwithme/user/61244ec64a384a03bab0bd0f76595756%40franktindle.com?anonymous&amp;ismsaljsauthenabled" target="_blank" rel="noopener">Or book a slot</a>
