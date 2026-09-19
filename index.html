@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Frank Tindle · Operations executive</title>
-<meta name="description" content="Thirty-one years building the teams that keep businesses running. Built an operation from a 30-person studio to a multi-site group peaking at 387 people, and worked through post-acquisition integration three times. Open to senior operations leadership roles, and to advisory conversations.">
-<meta property="og:title" content="Frank Tindle · Operations executive">
-<meta property="og:description" content="Thirty-one years building the teams that keep businesses running. Open to senior operations leadership roles.">
+<title>Frank Tindle · IT &amp; Facilities Director · Interim, fractional, permanent</title>
+<meta name="description" content="IT, facilities and operations director. Thirty-one years running the operational half of growing businesses: IT, buildings, security, procurement. Available from 6 October 2026 for interim and fractional engagements, and the right permanent role. London / Guildford, open to relocating.">
+<meta property="og:title" content="Frank Tindle · IT &amp; Facilities Director">
+<meta property="og:description" content="Thirty-one years running the operational half of growing businesses. Available from 6 October 2026 - interim, fractional, or the right permanent role.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://franktindle.com">
 <meta property="og:image" content="https://franktindle.com/share.jpg">
@@ -22,9 +22,9 @@
   "name": "Frank Tindle",
   "url": "https://franktindle.com",
   "image": "https://franktindle.com/frank-tindle.jpg",
-  "jobTitle": "IT & Operations Director",
-  "worksFor": { "@type": "Organization", "name": "Supermassive Games" },
+  "jobTitle": "IT & Facilities Director",
   "alumniOf": [
+    { "@type": "Organization", "name": "Supermassive Games" },
     { "@type": "Organization", "name": "Electronic Arts" },
     { "@type": "Organization", "name": "Criterion Games" },
     { "@type": "Organization", "name": "Criterion Software" },
@@ -32,22 +32,23 @@
     { "@type": "Organization", "name": "Acclaim Entertainment" }
   ],
   "address": { "@type": "PostalAddress", "addressRegion": "Greater London", "addressCountry": "GB" },
-  "knowsAbout": ["Operations leadership","M&A integration","IT strategy","Facilities management","Business continuity","Procurement","AI in operations","IT service management"],
+  "knowsAbout": ["IT Director","Head of IT","Operations Director","Operations leadership","Interim management","Fractional operations director","Fractional IT director","M&A integration","IT strategy","Facilities and estates","Office moves and consolidation","Vendor cost reduction","Cyber security","Business continuity","AI in operations","IT service management"],
   "sameAs": ["https://www.linkedin.com/in/ftindle"]
 }
 </script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 
 <style>
 :root{
-  --ink:#16211f; --petrol:#123832; --petrol-deep:#0c2723;
-  --paper:#fbfaf7; --paper-dim:#f0eee8;
-  --brass:#b8874a; --slate:#6b7671;
-  --line:rgba(22,33,31,.14); --line-light:rgba(251,250,247,.18);
-  --display:"Instrument Serif",Georgia,serif;
+  /* "studio" palette: deep indigo ground, hot coral accent */
+  --ink:#17122a; --petrol:#1b1438; --petrol-deep:#120d27;
+  --paper:#faf8fd; --paper-dim:#efeaf7;
+  --brass:#ff6b8f; --accent-ink:#c2214f; --slate:#645d78; --led:#3ddc84;
+  --line:rgba(23,18,42,.15); --line-light:rgba(251,250,247,.18); --grid:rgba(255,255,255,.045);
+  --display:"Bricolage Grotesque","IBM Plex Sans",system-ui,sans-serif;
   --body:"IBM Plex Sans",system-ui,-apple-system,sans-serif;
   --mono:"IBM Plex Mono",ui-monospace,monospace;
   --gutter:clamp(1.25rem,5vw,5rem);
@@ -62,7 +63,7 @@ body{background:var(--paper);color:var(--ink);font-family:var(--body);
   font-size:clamp(1rem,.96rem + .2vw,1.09rem);line-height:1.6;-webkit-font-smoothing:antialiased}
 a{color:inherit}
 :focus-visible{outline:2px solid var(--brass);outline-offset:3px;border-radius:2px}
-.wrap{max-width:64rem;margin:0 auto;padding-inline:var(--gutter)}
+.wrap{max-width:72rem;margin:0 auto;padding-inline:var(--gutter)}
 .eyebrow{font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;
   text-transform:uppercase;color:var(--brass)}
 
@@ -76,64 +77,99 @@ a{color:inherit}
 .btn-ghost:hover{background:var(--paper);color:var(--petrol-deep)}
 
 /* hero */
-.hero{background:var(--petrol);color:var(--paper);padding-block:clamp(3.5rem,10vw,7rem)}
+.hero{background:var(--petrol);color:var(--paper);padding-block:clamp(2.25rem,4vw,3.25rem)}
+.who{display:flex;align-items:center;gap:.85rem}
+.who a{display:block;flex:none;border-radius:50%}
+.who img{display:block;width:3.25rem;height:3.25rem;border-radius:50%;object-fit:cover;transition:transform .18s ease;
+  box-shadow:0 0 0 2px var(--petrol),0 0 0 3px var(--brass)}
+.who a:hover img{transform:scale(1.06)}
 .hero h1{font-family:var(--display);font-weight:400;
-  font-size:clamp(2.3rem,6.5vw,4.4rem);line-height:1.04;letter-spacing:-.015em;
+  font-size:clamp(2.2rem,5vw,3.6rem);line-height:1.05;letter-spacing:-.015em;
   margin-block:1rem .95rem;max-width:18ch;text-wrap:balance}
 .hero h1 em{font-style:italic;color:var(--brass)}
 .hero .standfirst{font-size:clamp(1.05rem,1rem + .5vw,1.28rem);
-  color:rgba(251,250,247,.8);max-width:46ch}
-.hero-actions{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:2.1rem}
+  color:rgba(251,250,247,.8);max-width:48ch}
+.avail{display:inline-block;margin-top:1.6rem;
+  font-family:var(--mono);font-size:.76rem;letter-spacing:.08em;text-transform:uppercase;line-height:1.7;
+  color:var(--paper);border:1px solid var(--line-light);border-left:3px solid var(--brass);padding:.6rem 1rem}
+.avail span{display:block;color:rgba(251,250,247,.6)}
+.hero-actions{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.6rem}
 .employers{font-family:var(--mono);font-size:.72rem;letter-spacing:.13em;
-  text-transform:uppercase;color:rgba(251,250,247,.55);margin-top:2.2rem;line-height:2}
-.employers span{white-space:nowrap}
+  text-transform:uppercase;color:rgba(251,250,247,.55);margin-top:0;line-height:2}
+/* the employer line repeats the career timeline, so phones skip it */
+@media(max-width:43.99rem){.employers{display:none}}
+@media(min-width:44rem){.employers span{white-space:nowrap}}
 
-/* figures */
-.figures{background:var(--petrol-deep);color:var(--paper);
-  border-top:1px solid var(--line-light);padding-block:2.5rem}
-.figures dl{display:grid;gap:1.75rem 2rem;grid-template-columns:repeat(2,1fr)}
-@media(min-width:48rem){.figures dl{grid-template-columns:repeat(4,1fr)}}
-.figures dt{font-family:var(--mono);font-size:.68rem;letter-spacing:.13em;
-  text-transform:uppercase;color:rgba(251,250,247,.5);margin-bottom:.35rem}
-.figures dd{font-family:var(--display);font-size:clamp(1.45rem,3vw,2.2rem);line-height:1.05;white-space:nowrap}
+/* right-hand panel: the numbers, then the recruiter facts */
+.hero-grid{display:grid;gap:2rem}
+.panel{display:grid;gap:1.5rem;border-top:1px solid var(--line-light);padding-top:1.6rem}
+.figures{display:grid;gap:1.3rem 2rem;grid-template-columns:repeat(2,1fr)}
+.figures dt,.facts dt{font-family:var(--mono);font-size:.68rem;letter-spacing:.13em;
+  text-transform:uppercase;color:rgba(251,250,247,.5);margin-bottom:.3rem}
+.figures dd{font-family:var(--display);font-size:clamp(1.45rem,2.4vw,2.05rem);line-height:1.05;white-space:nowrap}
+.facts{display:grid;gap:1rem;border-top:1px solid var(--line-light);padding-top:1.4rem}
+.facts dd{font-size:.95rem;line-height:1.45;color:rgba(251,250,247,.88)}
+.creed{font-family:var(--display);font-style:italic;font-size:1.3rem;line-height:1.3;color:var(--brass);
+  border-top:1px solid var(--line-light);padding-top:1.3rem}
+@media(min-width:62rem){
+  .hero-grid{grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);column-gap:4rem;align-items:start}
+  .panel{border-top:0;padding-top:.4rem;border-left:1px solid var(--line-light);padding-left:2.75rem}
+  .employers{grid-column:1 / -1}
+}
 
-/* useful for */
-.section{padding-block:clamp(3.5rem,8vw,6rem)}
-.section-head{margin-bottom:clamp(2rem,4vw,2.75rem)}
+.section{padding-block:clamp(2.5rem,5.5vw,4rem)}
+.section-head{margin-bottom:clamp(1.4rem,3vw,2rem)}
 .section-head h2{font-family:var(--display);font-weight:400;
-  font-size:clamp(1.8rem,3.6vw,2.6rem);line-height:1.1;margin-top:.55rem;max-width:22ch}
-.areas{display:grid;gap:1rem}
-.area{border-top:1px solid var(--line);padding-top:1.15rem;display:grid;gap:1rem}
-@media(min-width:52rem){.area{grid-template-columns:14rem 1fr;gap:2.5rem;align-items:start}}
-.area h3{font-size:1.08rem;font-weight:600}
-.area p{color:var(--slate);max-width:56ch}
+  font-size:clamp(1.8rem,3.6vw,2.6rem);line-height:1.1;margin-top:.55rem;max-width:32ch}
+.section-head .lede{color:var(--slate);max-width:56ch;margin-top:.9rem}
 
-/* what the studio said */
-.said-grid{display:grid;gap:2rem}
-@media(min-width:52rem){.said-grid{grid-template-columns:1fr 1fr}}
-.said blockquote{border-left:2px solid var(--brass);padding-left:1.2rem;max-width:56ch}
-.said blockquote p{font-family:var(--display);font-size:clamp(1.15rem,2vw,1.45rem);line-height:1.35}
-.said cite{font-family:var(--mono);font-size:.7rem;letter-spacing:.12em;
-  text-transform:uppercase;color:var(--slate);font-style:normal;display:block;margin-top:.8rem}
-.said .note{margin-top:1.8rem;color:var(--slate);font-size:.95rem;max-width:60ch}
+/* bring me in when */
+.when{display:grid;gap:1px;background:var(--line);border:1px solid var(--line)}
+@media(min-width:44rem){.when{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:64rem){.when{grid-template-columns:repeat(3,1fr)}}
+.when article{background:var(--paper);padding:1.2rem 1.25rem 1.25rem;display:flex;flex-direction:column;gap:.5rem}
+.when h3{font-family:var(--display);font-weight:400;font-size:1.35rem;line-height:1.15}
+.when p{color:var(--slate);font-size:.97rem}
+.when .proof{margin-top:auto;padding-top:.65rem;border-top:1px solid var(--line);
+  font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;line-height:1.6;color:var(--ink)}
+.when .proof b{color:var(--brass);font-weight:500}
+.ways{display:grid;gap:1.5rem 2.25rem;margin-top:1.75rem;padding-top:1.5rem;border-top:2px solid var(--brass)}
+@media(min-width:36rem){.ways{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:64rem){.ways{grid-template-columns:repeat(4,1fr)}}
+.ways h3{font-family:var(--mono);font-size:.74rem;font-weight:500;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--brass);margin-bottom:.4rem}
+.ways p{font-size:.96rem;line-height:1.55;text-wrap:pretty}
+.shapes{margin-top:1.4rem;color:var(--slate);max-width:62ch}
+.shapes strong{color:var(--ink);font-weight:600}
 
+/* the longer version - collapsed by default */
+.more{border-top:1px solid var(--line);margin-top:2rem}
+.more details{border-bottom:1px solid var(--line)}
+.more summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:baseline;
+  gap:1rem;padding:.85rem 0;font-weight:600;font-size:1.02rem}
+.more summary::-webkit-details-marker{display:none}
+.more summary::after{content:"+";font-family:var(--mono);color:var(--brass);font-weight:400;font-size:1.1rem}
+.more details[open] summary::after{content:"\2013"}
+.more details p{color:var(--slate);max-width:62ch;padding-bottom:1.1rem}
 
-/* about */
-.about{background:var(--paper-dim)}
-.about-grid{display:grid;gap:1.5rem}
-@media(min-width:52rem){.about-grid{grid-template-columns:14rem 1fr;gap:2.5rem}}
-.about p{max-width:58ch}
-.about p + p{margin-top:.9rem;color:var(--slate)}
-.portrait{display:block;width:100%;max-width:11rem;height:auto;aspect-ratio:1;
-  object-fit:cover;border-radius:2px;margin-top:1.1rem;filter:saturate(.9)}
+/* career + next step, side by side */
+.close{background:var(--paper-dim)}
+.close-grid{display:grid;gap:2.5rem}
+@media(min-width:58rem){.close-grid{grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:3.5rem;align-items:stretch}}
+.timeline{list-style:none;display:grid;gap:0;margin-top:1.1rem}
+.timeline li{display:grid;gap:.15rem .1rem;padding-block:.95rem;border-top:1px solid var(--line)}
+.timeline li:last-child{border-bottom:1px solid var(--line)}
+@media(min-width:40rem){.timeline li{grid-template-columns:8.5rem 1fr;gap:1.5rem}}
+.timeline .yrs{font-family:var(--mono);font-size:.78rem;letter-spacing:.06em;color:var(--slate);padding-top:.15rem}
+.timeline strong{font-weight:600;display:block}
+.timeline span.role{color:var(--slate);font-size:.97rem}
 
-/* book */
-.book{background:var(--petrol);color:var(--paper);padding-block:clamp(3.5rem,8vw,6rem)}
+.book{background:var(--petrol);color:var(--paper);padding:clamp(1.6rem,3vw,2.4rem);
+  display:flex;flex-direction:column;justify-content:center}
 .book h2{font-family:var(--display);font-weight:400;
-  font-size:clamp(1.9rem,4vw,2.9rem);line-height:1.08;margin-block:.6rem .9rem;max-width:20ch}
-.book p{color:rgba(251,250,247,.78);max-width:46ch;margin-bottom:1.9rem}
-.book-embed{margin-top:2.4rem;border:1px solid var(--line-light);background:var(--paper)}
-.book-embed iframe{display:block;width:100%;height:38rem;border:0}
+  font-size:clamp(1.8rem,3vw,2.5rem);line-height:1.08;margin-block:.5rem .8rem}
+.book p{color:rgba(251,250,247,.78);max-width:44ch;margin-bottom:1.5rem}
+.book .eyebrow{margin-bottom:0}
 
 .foot{background:var(--petrol-deep);color:rgba(251,250,247,.5);
   border-top:1px solid var(--line-light);padding-block:1.7rem;
@@ -141,115 +177,166 @@ a{color:inherit}
 .foot .wrap{display:flex;flex-wrap:wrap;gap:.75rem 1.5rem;justify-content:space-between}
 .foot a{text-decoration:none}
 .foot a:hover{color:var(--paper)}
+
+/* accent on light grounds uses the darker coral for contrast */
+.section .eyebrow,.close .eyebrow,.when .proof b,.ways h3,.more summary::after{color:var(--accent-ink)}
+.close .book .eyebrow{color:var(--brass)}
+.ways{border-top-color:var(--accent-ink)}
+
+/* grotesque display needs weight, not italics */
+.hero h1{font-weight:700;letter-spacing:-.03em;line-height:1.02;font-size:clamp(2.1rem,4.6vw,3.35rem)}
+.hero h1 em{font-style:normal}
+.section-head h2,.book h2{font-weight:700;letter-spacing:-.025em}
+.when h3{font-weight:600;font-size:1.18rem;letter-spacing:-.01em}
+.figures dd{font-weight:700;letter-spacing:-.02em}
+.creed{font-style:normal;font-weight:600;font-size:1.12rem}
+
+/* HUD details: level-editor grid, status light, progress bar, prompt */
+.hero{background-image:
+  linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
+  background-size:44px 44px}
+.avail{border-left-color:var(--led)}
+.avail::before{content:"";display:inline-block;width:.5rem;height:.5rem;border-radius:50%;
+  background:var(--led);box-shadow:0 0 0 3px rgba(61,220,132,.18),0 0 10px var(--led);
+  margin-right:.6rem;vertical-align:.05em;animation:led 2.4s ease-in-out infinite}
+@keyframes led{50%{box-shadow:0 0 0 5px rgba(61,220,132,.08),0 0 4px var(--led)}}
+.figures div:nth-child(2) dd::after{content:"";display:block;height:3px;margin-top:.55rem;max-width:9rem;
+  background:linear-gradient(90deg,rgba(251,250,247,.4) 0 8%,var(--brass) 8% 100%)}
+.when .proof::before{content:"> ";color:var(--accent-ink)}
+.when article{transition:box-shadow .18s ease}
+.when article:hover{box-shadow:inset 0 3px 0 var(--brass)}
+
+/* headings, descriptions and proof lines align across a row, so no ragged gaps */
+@supports (grid-template-rows:subgrid){
+  .when article{display:grid;grid-template-rows:subgrid;grid-row:span 3;row-gap:.55rem;align-content:start}
+  .when .proof{margin-top:0;align-self:start}
+}
+
+/* phones: proof lines big enough to read, buttons share the row */
+@media(max-width:43.99rem){
+  .when .proof{font-size:.8rem;line-height:1.65}
+  .hero-actions{gap:.5rem}
+  .hero-actions .btn{flex:1 1 auto;text-align:center;font-size:.72rem;padding:.78rem .8rem}
+}
 </style>
 </head>
 <body>
 
 <section class="hero" id="top">
-  <div class="wrap">
-    <p class="eyebrow">Frank Tindle · Operations executive</p>
-    <h1>The best compliment operations can get is that <em>nobody noticed</em>.</h1>
-    <p class="standfirst">Thirty-one years building the teams that keep businesses running. Grow fast enough and your operation becomes the thing holding you back. I stop that happening.</p>
-    <div class="hero-actions">
-      <a class="btn btn-solid js-email" href="https://bookings.cloud.microsoft/bookwithme/user/61244ec64a384a03bab0bd0f76595756%40franktindle.com?anonymous&amp;ismsaljsauthenabled">Email me</a>
-      <a class="btn btn-ghost" href="https://bookings.cloud.microsoft/bookwithme/user/61244ec64a384a03bab0bd0f76595756%40franktindle.com?anonymous&amp;ismsaljsauthenabled" target="_blank" rel="noopener">Book a call</a>
+  <div class="wrap hero-grid">
+   <div>
+    <div class="who">
+      <a href="https://www.linkedin.com/in/ftindle" target="_blank" rel="noopener" title="Frank Tindle on LinkedIn"><img src="https://franktindle.com/frank-tindle.jpg" alt="Frank Tindle on LinkedIn" width="112" height="112"></a>
+      <p class="eyebrow">Frank Tindle · IT, Facilities &amp; Operations</p>
     </div>
+    <h1>The best compliment operations can get is that <em>nobody noticed</em>.</h1>
+    <p class="standfirst">Thirty-one years running IT, security, buildings and procurement for businesses that are changing shape. Grow fast enough, or shrink fast enough, and your operation becomes the thing holding you back. I stop that happening.</p>
+    <p class="avail">Available from 6 October 2026 <span>Interim · Fractional · The right permanent role</span></p>
+    <div class="hero-actions">
+      <a class="btn btn-solid" href="https://bookings.cloud.microsoft/bookwithme/user/61244ec64a384a03bab0bd0f76595756%40franktindle.com?anonymous&amp;ismsaljsauthenabled" target="_blank" rel="noopener">Book a call</a>
+      <a class="btn btn-ghost" href="https://www.linkedin.com/in/ftindle" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn btn-ghost js-email" href="https://bookings.cloud.microsoft/bookwithme/user/61244ec64a384a03bab0bd0f76595756%40franktindle.com?anonymous&amp;ismsaljsauthenabled">Email me</a>
+    </div>
+   </div>
+   <aside class="panel" aria-label="At a glance">
+    <dl class="figures">
+      <div><dt>M&amp;A integrations</dt><dd>5</dd></div>
+      <div><dt>Operational scale</dt><dd>30 → 400+</dd></div>
+      <div><dt>Budget owned</dt><dd>£200K → £6M</dd></div>
+      <div><dt>In operations</dt><dd>31 yrs</dd></div>
+    </dl>
+    <dl class="facts">
+      <div><dt>Roles</dt><dd>IT Director · Operations Director · Head of IT<br>Permanent, interim or fractional</dd></div>
+      <div><dt>Based</dt><dd>London / Guildford-based, open to relocating. Remote, hybrid or on-site all work.</dd></div>
+      <div><dt>Background</dt><dd>Multiple BAFTA-winning studios. Every size from a 30-person studio to a global publisher’s campus.</dd></div>
+    </dl>
+    <p class="creed">No fuss, no jargon. I build good teams and get out of their way.</p>
+   </aside>
     <p class="employers"><span>Supermassive Games Ltd</span> · <span>Electronic Arts Inc</span> · <span>Criterion Software Ltd (Games and RenderWare)</span> · <span>Acclaim Entertainment Inc – Iguana Entertainment Ltd</span></p>
   </div>
 </section>
 
-<section class="figures">
-  <div class="wrap">
-    <dl>
-      <div><dt>M&amp;A integrations</dt><dd>3</dd></div>
-      <div><dt>Studio growth</dt><dd>30 → 387</dd></div>
-      <div><dt>Budget owned</dt><dd>£200K → £6M</dd></div>
-      <div><dt>In operations</dt><dd>31 yrs</dd></div>
-    </dl>
-  </div>
-</section>
-
-<section class="section">
+<section class="section" id="when">
   <div class="wrap">
     <div class="section-head">
-      <p class="eyebrow">What I’m useful for</p>
-      <h2>The things that break when a business changes shape.</h2>
+      <p class="eyebrow">Bring me in when</p>
+      <h2>The business is changing shape and the back office has to keep up.</h2>
     </div>
-    <div class="areas">
 
-      <article class="area">
-        <h3>Acquisitions, and what comes after</h3>
-        <p>Three acquisitions, three integrations, across three decades. Acclaim’s purchase of Iguana in 1995, where I unified email across New York, Austin, Utah and the UK. EA’s £40M acquisition of Criterion in 2004, where Guildford, Paris, Austin and Tokyo folded into EA’s infrastructure, 300+ people, zero disruption to game releases. Then Supermassive into Nordisk Games in 2022. The technical half is the easy half. The rest is people deciding whether to stay.</p>
+    <div class="when">
+      <article>
+        <h3>You’ve bought something, or been bought</h3>
+        <p>Folding the systems in is the easy half. The rest is people deciding whether to stay.</p>
+        <p class="proof"><b>Five deals, both sides of the table.</b> At Criterion, integrated MathEngine and took on the Derby studio. On the receiving end three times: Acclaim 1995 · EA 2004 · Nordisk 2022. Five sites, zero disruption to releases.</p>
       </article>
 
-      <article class="area">
-        <h3>AI in the back office</h3>
-        <p>Founded a cross-functional group spanning operations, HR, IT and studio management to take the grind out of routine work. Started as four people comparing notes and became the way the back office thinks about this. The useful wins are unglamorous and that’s the point. The current flagship: a weekly service report that builds itself from live Freshservice data — drafted with Claude, reviewed by a human before it sends, benchmarked against HDI and Gartner — alongside the ticket triage and admin that quietly eat a week a month.</p>
+      <article>
+        <h3>You have to get smaller without service falling over</h3>
+        <p>Headcount, sites and run rate coming down at once, handled directly and decently.</p>
+        <p class="proof"><b>Three redundancy rounds in three years.</b> 387 people at peak, 172 by the end of 2025, below 95 after the 2026 round. Service satisfaction at 96–100% with my team at its smallest.</p>
       </article>
 
-      <article class="area">
-        <h3>Scaling the operation</h3>
-        <p>Joined a 30-person work-for-hire studio as its only IT manager. Built the operational side of the business from a standing start to a team of 16, covering IT, workplace, facilities, physical and cyber security, events and procurement, then carried it to a multi-site group that peaked at 387 people, and through acquisition by Nordisk Games. Sat on the Senior Leadership Team.</p>
+      <article>
+        <h3>You’re moving, merging or handing back buildings</h3>
+        <p>Fit-outs to a fixed date, moves nobody loses a day to, landlords who don’t get the last word.</p>
+        <p class="proof"><b>Three sites into one.</b> 210+ people moved in a day. Dilapidations £195k against a £211k budget. Two fit-outs delivered to fixed dates.</p>
       </article>
 
-      <article class="area">
-        <h3>Growth in reverse</h3>
-        <p>Then the industry turned, as it has right across the sector. I ran the estate and the function through a sustained contraction: sites consolidated, run rate cut, workforce reductions handled directly and decently, people absorbed from departments that were closing. The function went from 16 to 9 as the group went from 387 people to around 170 — and service held at or above HDI and Gartner benchmarks throughout. Scaling down well is rarer than scaling up, and a good deal harder to do properly.</p>
+      <article>
+        <h3>Your vendor costs have drifted</h3>
+        <p>Audit what is actually used, build the evidence, then negotiate. Every year for over a decade.</p>
+        <p class="proof"><b>One renewal, $109k → $76k.</b> About £80k of wrong kit found in a single £145k quote. Cleaning, catering and licences rebased as headcount fell.</p>
       </article>
 
-      <article class="area">
-        <h3>Buildings, and keeping the lights on</h3>
-        <p>Took a studio from 14,000 sq ft into 40,000 across two buildings with nobody losing a working day. Earlier, part of the leadership team on a 96,000 sq ft fit-out consolidating three EA sites into one. And on the way out of a building, took the dilapidations works in-house rather than accepting the landlord’s contractor, and delivered them well under the schedule.</p>
+      <article>
+        <h3>Security has to stand up to someone else’s scrutiny</h3>
+        <p>A publisher, an acquirer or an insurer sends the questionnaire. Build the capability, not the paperwork.</p>
+        <p class="proof"><b>Phishing click rate 0.7%</b> against a Gartner benchmark of around 15%. A publisher’s 118-question assessment met to deadline.</p>
       </article>
 
+      <article>
+        <h3>The back office should be using AI and isn’t</h3>
+        <p>A short list of dull jobs worth automating, and a human check before anything sends.</p>
+        <p class="proof"><b>A weekly service report that builds itself</b> from live ticket data. Drafted with Claude, benchmarked against HDI and Gartner.</p>
+      </article>
+    </div>
+
+    <div class="ways">
+      <div><h3>A fixed project</h3><p>An office move, an integration, a cost-out, a security review. Scoped, priced, with an end date.</p></div>
+      <div><h3>A day or two a week</h3><p>Your IT or operations director, fractionally. For 30 to 400 people who’ve outgrown ad-hoc IT: run by whoever knows most, and nobody’s actual job.</p></div>
+      <div><h3>Interim cover</h3><p>Full-time while you hire, restructure or get through a deal. Available from 6 October.</p></div>
+      <div><h3>Permanent</h3><p>For the right business. Half an hour on a call is usually enough to tell which of these fits.</p></div>
+    </div>
+
+    <div class="more" id="proof">
+      <details><summary>Scaling up: 30 people to 400+</summary><p>Joined a 30-person work-for-hire studio as its only IT manager. Built the operational side from a standing start to a team of 16 - IT, workplace, facilities, physical and cyber security, events, procurement - and carried it to a multi-site group of 387, plus around 20 at partner sites in Kyiv and Lviv, 400+ people supported, and through acquisition. Along the way: three development sites stood up in Ukraine in five months and kept running through the 2022 invasion, and a whole console platform stood up from nothing in nine working days.</p></details>
+      <details><summary>Growth in reverse: 387 and back down</summary><p>Then the industry turned. Sites consolidated, run rate cut, and two rounds of redundancy handled directly and decently, with a third in my final months. From a peak of 387 people: about 90 roles in 2024, 36 in 2025 leaving 172 by year end, then up to 75 in 2026, taking the studio below 95. The day after the first announcement I cleared the diary, sat down with every one of my direct reports, then told the CEO what they had actually said. My own function went from 16 to 9 over the same stretch, and service held at or above HDI and Gartner benchmarks throughout. Scaling down well is rarer than scaling up, and a good deal harder to do properly.</p></details>
+      <details><summary>Buildings: 14,000 sq ft to 40,000, then back to one site</summary><p>Two buildings, nobody losing a working day. One was a 17,000 sq ft fit-out to a fixed date, when the network supplier was quoting 99 to 150 days against a 76-day window. I bought refurbished, with warranties, on five-day lead times. Earlier, part of the leadership team on a 96,000 sq ft fit-out consolidating three EA sites into one.</p></details>
+      <details><summary>When it goes wrong</summary><p>March 2020: an office-only culture, no VPN and no spare laptops. Ninety per cent of the studio were working from home inside two weeks, every machine encrypted inside five. A full-site power cut on a Sunday, every desktop back by the evening. A cloud supplier that ceased trading at a few days’ notice, re-homed in five working days with no fees and the discount intact.</p></details>
+      <details><summary>Outside games</summary><p>Most of this happened in games, which is a decent stress test: launch dates that don’t move, enormous data, IP that people actively try to steal. None of it is specific to games. A lease is a lease, and a software vendor will overcharge anybody.</p></details>
     </div>
   </div>
 </section>
 
-<section class="section said">
-  <div class="wrap">
-    <div class="section-head">
-      <p class="eyebrow">What the studio said</p>
-      <h2>The people being supported, in their own words.</h2>
-    </div>
-    <div class="said-grid">
-      <blockquote>
-        <p>“Best IT department in the kingdom, no doubt.”</p>
-        <cite>Staff satisfaction return, 2026</cite>
-      </blockquote>
-      <blockquote>
-        <p>“Issue resolved quickly and all software working as intended.”</p>
-        <cite>Staff satisfaction return, 2026</cite>
-      </blockquote>
-    </div>
-    <p class="note">Every satisfaction rating returned in the most recent reported weeks scored the service the top mark — over the period the function ran at its leanest, benchmarked against HDI and Gartner.</p>
-  </div>
-</section>
-
-<section class="section about">
-  <div class="wrap about-grid">
+<section class="section close" id="career">
+  <div class="wrap close-grid">
     <div>
-      <p class="eyebrow">Background</p>
-      <img class="portrait" src="frank-tindle.jpg" alt="Frank Tindle" width="440" height="440">
+      <p class="eyebrow">Career</p>
+      <ol class="timeline">
+        <li><span class="yrs">2010 – 2026</span><div><strong>Supermassive Games</strong><span class="role">IT Manager, then Head of Facilities and IT, then IT &amp; Facilities Director reporting to the CEO · acquired by Nordisk Games (Nordisk Film), 2022</span></div></li>
+        <li><span class="yrs">2000 – 2008</span><div><strong>Criterion Software / Electronic Arts</strong><span class="role">Head of IT, then Head of Operations, then Studio IT Manager, then Senior Manager, IT Services · acquired by EA, 2004</span></div></li>
+        <li><span class="yrs">1995 – 1999</span><div><strong>Iguana Entertainment / Acclaim Entertainment</strong><span class="role">Manager, MIS and Operations, then Director of Operations</span></div></li>
+      </ol>
     </div>
-    <div>
-      <p>Thirty-one years in operations, most of it in games, across multiple BAFTA-winning studios. Sixteen at Supermassive Games as IT &amp; Operations Director, before that Criterion through the Burnout years — three BAFTAs for Burnout 3: Takedown — and the EA acquisition, and before that Acclaim as Director of Operations.</p>
-      <p>SME to enterprise and back. Four corporate parents along the way — Canon at Criterion, Acclaim out of New York, EA after the acquisition, Egmont after Nordisk Games bought Supermassive — running operations at every size from a 30-person studio to a global publisher’s campus.</p>
-      <p>Running the operational half of a business. I build good teams and get out of their way. No fuss, no jargon. Let people focus on the work and nothing else.</p>
+    <div class="book" id="book">
+      <p class="eyebrow">Next step</p>
+      <h2>Half an hour, no pitch.</h2>
+      <p>Tell me what’s going on and I’ll tell you honestly whether I can help. Recruiters welcome - interim, fractional or permanent.</p>
+      <div class="hero-actions" style="margin-top:0">
+        <a class="btn btn-solid" href="https://bookings.cloud.microsoft/bookwithme/user/61244ec64a384a03bab0bd0f76595756%40franktindle.com?anonymous&amp;ismsaljsauthenabled" target="_blank" rel="noopener">Book a slot</a>
+        <a class="btn btn-ghost js-email" href="https://bookings.cloud.microsoft/bookwithme/user/61244ec64a384a03bab0bd0f76595756%40franktindle.com?anonymous&amp;ismsaljsauthenabled">Email me</a>
+      </div>
     </div>
-  </div>
-</section>
-
-<section class="book" id="book">
-  <div class="wrap">
-    <p class="eyebrow">Next step</p>
-    <h2>Half an hour, no pitch.</h2>
-    <p>I’m open to approaches about Operations Director, IT Director and Head of Operations roles, and to fractional or advisory arrangements. Equally happy to talk if you're scaling, moving, or working out what your operation should look like a year from now. Drop me a line and we'll talk it through.</p>
-    <div class="hero-actions" style="margin-top:0">
-      <a class="btn btn-solid js-email" href="https://bookings.cloud.microsoft/bookwithme/user/61244ec64a384a03bab0bd0f76595756%40franktindle.com?anonymous&amp;ismsaljsauthenabled">Email me</a>
-      <a class="btn btn-ghost" href="https://bookings.cloud.microsoft/bookwithme/user/61244ec64a384a03bab0bd0f76595756%40franktindle.com?anonymous&amp;ismsaljsauthenabled" target="_blank" rel="noopener">Or book a slot</a>
-    </div>
-
   </div>
 </section>
 

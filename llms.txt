@@ -1,51 +1,102 @@
 # Frank Tindle
 
-> Operations executive. Thirty-one years building the teams that keep
-> businesses running. Based in the London area, UK.
+> IT, facilities and operations director. Thirty-one years running the
+> operational half of growing businesses. Available from 6 October 2026 for
+> interim and fractional engagements, and the right permanent role. Currently
+> London / Guildford-based, UK, and open to relocating. Remote, hybrid or on-site all work.
 
 ## Summary
 
-Frank Tindle is an operations and technology executive with 31 years in the
-video games industry, across multiple BAFTA-winning studios, currently
-IT & Operations Director at Supermassive Games. Open to Operations Director,
-IT Director and Head of Operations roles, and to fractional or advisory
-arrangements.
+Frank Tindle is an IT, facilities and operations director with 31 years in the
+video games industry, across multiple BAFTA-winning studios, most recently
+IT & Facilities Director at Supermassive Games (2010-2026). Available from
+6 October 2026. Open to IT Director, Operations Director and Head of IT roles
+on an interim, fractional or permanent basis, and to advisory arrangements.
+
+## Bring him in when
+
+- You have bought something, or been bought: post-acquisition integration of
+  systems, sites, suppliers and security. Five deals, both sides of the table.
+- You have to get smaller without service falling over: headcount, sites and
+  run rate coming down together, handled directly and decently.
+- You are moving, merging or handing back buildings: fit-outs to a fixed date,
+  moves with no lost working days, dilapidations run in-house.
+- Your vendor costs have drifted: audit actual usage, build the evidence,
+  renegotiate.
+- Security has to stand up to someone else's scrutiny: a publisher, acquirer
+  or insurer sends the questionnaire and the capability has to be real.
+- The back office should be using AI and is not: a working group, a short list
+  of dull jobs worth automating, and a human check before anything sends.
+
+Engagement shapes: a fixed piece of work with an end date; a day or two a week
+as operations or IT director; full-time interim cover during a hire; or
+permanent.
 
 ## Career
 
-- **Supermassive Games Ltd** (2010–present): IT & Operations Director. Joined at 30
-  employees; the studio grew to a multi-site group peaking at 387 staff, peak turnover
-  of £39.1M (FY2022), and was acquired by Nordisk Games (Egmont) in July 2022.
+- **Supermassive Games Ltd** (2010-2026): IT Manager (2010-2018), Head of Facilities and IT
+  (2018-2021), then IT & Facilities Director reporting to the CEO (2021-2026). Joined at 30
+  employees; the studio grew to a multi-site group peaking at 387 staff (400+ people supported,
+  including around 20 at partner sites in Kyiv and Lviv), peak turnover
+  of £39.1M (FY2022), and was acquired by Nordisk Games (Nordisk Film) in July 2022.
   Built the operations function from a standing start to a team of 16, covering IT,
   workplace support, facilities, physical and cyber security, events and
   procurement. Operating budget grew from £200K to a peak of £6M. Member of the
   Senior Leadership Team. Through the industry-wide contraction, ran the function
-  down from 16 to 9 as the group went from 387 people to around 170, with service
-  held at or above HDI and Gartner benchmarks throughout and every staff
-  satisfaction rating in the most recent reported weeks at the top mark.
-- **Criterion Software Ltd / Electronic Arts Inc** (2000–2008): Head of IT, then Head of
-  Operations, then Senior Manager, IT Services. Dual responsibility to Criterion Games
-  (Burnout franchise — three BAFTAs for Burnout 3: Takedown in 2005) and the RenderWare
+  down from 16 to 9 as the group went from 387 people to 172 at the end of 2025, across
+  redundancy rounds in February 2024 (about 90 roles) and July 2025 (36 roles); a third
+  round, of up to 75 roles, followed in August 2026, shortly before he left, taking the
+  studio below 95 people. Service
+  held at or above HDI and Gartner benchmarks and staff satisfaction at 96-100%.
+- **Criterion Software Ltd / Electronic Arts Inc** (2000-2008): Head of IT, then Head of
+  Operations, then Studio IT Manager, then Senior Manager, IT Services. Dual responsibility to Criterion Games
+  (Burnout franchise - three BAFTAs for Burnout 3: Takedown in 2005) and the RenderWare
   middleware business. Criterion was Canon-owned until EA's £40M acquisition in 2004;
-  led the IT integration covering Guildford, Paris, Austin and Tokyo, 300+ employees,
-  with no disruption to game releases.
-- **Iguana Entertainment Ltd / Acclaim Entertainment Inc** (1995–1999): Manager, MIS
-  and Operations (1995–1997), then Director of Operations (1997–1999) at Acclaim
+  led the IT integration covering Guildford, Derby, Paris, Austin and Tokyo, 300+ employees,
+  with no disruption to game releases. Earlier, on the buying side: when Criterion
+  acquired MathEngine he merged its systems and data into Criterion's (staff were offered
+  moves to Guildford and the office closed); when it acquired Data Path Ltd in Derby he
+  became accountable for that site's IT and facilities and mentored its staff.
+- **Iguana Entertainment Ltd / Acclaim Entertainment Inc** (1995-1999): Manager, MIS
+  and Operations (1995-1997), then Director of Operations (1997-1999) at Acclaim
   Studios Teesside. Built a unified email system across sites in New York, Austin,
   Utah and the UK.
 
+## Selected results
+
+- Took the whole studio from an office-only, no-VPN culture to home working in
+  March 2020: 90%+ connected inside two weeks, every in-scope machine encrypted
+  inside five.
+- Consolidated three sites into one (2023-2025): 210+ people moved in a single
+  day; dilapidations delivered at £195k against a £211k budget.
+- Delivered a 17,000 sq ft fit-out to a fixed date in 2022 when the network
+  supplier quoted 99-150 day lead times against a 76-day window.
+- Cut one software renewal from $109k to $76k by rationalising seats on usage
+  data; found about £80k of wrong or unnecessary kit in a single £145k quote.
+- Built a security awareness programme that returned a 0.7% phishing click rate
+  studio-wide against a Gartner benchmark of around 15%; commissioned the
+  studio's first penetration test; completed a major publisher's 118-question
+  security assessment to deadline.
+- Stood up three development sites in Ukraine in five months and kept them
+  running through the 2022 invasion.
+- Re-homed a cloud subscription in five working days when the supplier ceased
+  trading, with no fees and the reserved-capacity discount intact.
+- Automated weekly IT service report built with Claude and the Freshservice MCP:
+  live ticket data, AI-drafted narrative, human-reviewed before sending,
+  benchmarked against HDI and Gartner.
+
 ## Areas of expertise
 
-Post-acquisition integration (three acquisitions across three decades; four
-corporate parents — Canon, Acclaim, EA, Egmont — spanning SME to enterprise),
+Post-acquisition integration (five deals across three decades, two as the buyer and
+three as the acquired business; four
+corporate parents - Canon, Acclaim, EA, Nordisk Film - spanning SME to enterprise),
 scaling operations through rapid growth, org design and workforce change through
 both growth and contraction, office moves and estates, business continuity,
 cyber and physical security, procurement and vendor management, and applying AI
-to back-office work — including an automated weekly IT service report built with
-Claude and the Freshservice MCP: live ticket data, AI-drafted narrative,
-human-reviewed before sending, benchmarked against HDI and Gartner.
+to back-office work. The experience is from games; none of it is specific to games.
 
 ## Contact
 
 - Website: https://franktindle.com
+- Book a call: via the website
 - LinkedIn: https://www.linkedin.com/in/ftindle
