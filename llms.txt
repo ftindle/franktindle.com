@@ -85,6 +85,19 @@ permanent.
   live ticket data, AI-drafted narrative, human-reviewed before sending,
   benchmarked against HDI and Gartner.
 
+## What colleagues say
+
+From his public LinkedIn recommendations (13 in total, https://www.linkedin.com/in/ftindle/details/recommendations/):
+
+- Jonathan Amor, VP Strategic Initiatives, Supermassive Games: "When we were looking for
+  someone to head up IT in the early days of Supermassive Games, he was the first person
+  I thought of."
+- Simon Harris, Vice President of Development, Supermassive Games: "I honestly cannot think
+  of anyone I'd trust more with infrastructure management."
+- Paul Glancey, game design and production leader, worked with him at Electronic Arts:
+  "The fact that he knows games inside and out was a bonus for us, but I believe Frank could
+  keep any large organisation operating at peak efficiency, in any area of the tech business."
+
 ## Areas of expertise
 
 Post-acquisition integration (five deals across three decades, two as the buyer and

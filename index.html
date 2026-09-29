@@ -219,6 +219,17 @@ a{color:inherit}
   .hero-actions{gap:.5rem}
   .hero-actions .btn{flex:1 1 auto;text-align:center;font-size:.72rem;padding:.78rem .8rem}
 }
+
+/* three named quotes from public LinkedIn recommendations */
+.said{padding-block:clamp(1.75rem,3.5vw,2.5rem);border-top:1px solid var(--line)}
+.said-grid{display:grid;gap:1.75rem;margin-top:1rem;align-items:start}
+@media(min-width:56rem){.said-grid{grid-template-columns:repeat(3,1fr);gap:2.5rem}}
+.said figure{display:grid;gap:.7rem;align-content:start;border-left:2px solid var(--accent-ink);padding-left:1.1rem}
+.said blockquote p{font-size:1.04rem;line-height:1.5;color:var(--ink)}
+.said figcaption{font-family:var(--mono);font-size:.72rem;letter-spacing:.05em;line-height:1.55;color:var(--slate)}
+.said figcaption b{display:block;font-weight:500;color:var(--ink);letter-spacing:.1em;text-transform:uppercase}
+.said-more{margin-top:1.1rem;font-family:var(--mono);font-size:.74rem;letter-spacing:.08em;text-transform:uppercase}
+.said-more a{color:var(--accent-ink);text-underline-offset:3px}
 </style>
 </head>
 <body>
@@ -316,6 +327,27 @@ a{color:inherit}
       <details><summary>When it goes wrong</summary><p>March 2020: an office-only culture, no VPN and no spare laptops. Ninety per cent of the studio were working from home inside two weeks, every machine encrypted inside five. A full-site power cut on a Sunday, every desktop back by the evening. A cloud supplier that ceased trading at a few days’ notice, re-homed in five working days with no fees and the discount intact.</p></details>
       <details><summary>Outside games</summary><p>Most of this happened in games, which is a decent stress test: launch dates that don’t move, enormous data, IP that people actively try to steal. None of it is specific to games. A lease is a lease, and a software vendor will overcharge anybody.</p></details>
     </div>
+  </div>
+</section>
+
+<section class="section said" id="said">
+  <div class="wrap">
+    <p class="eyebrow">In their words</p>
+    <div class="said-grid">
+      <figure>
+        <blockquote><p>“When we were looking for someone to head up IT in the early days of Supermassive Games, he was the first person I thought of.”</p></blockquote>
+        <figcaption><b>Jonathan Amor</b>VP Strategic Initiatives, Supermassive Games</figcaption>
+      </figure>
+      <figure>
+        <blockquote><p>“He quietly builds a solid, secure platform for the people around him to work on.”</p></blockquote>
+        <figcaption><b>Simon Harris</b>Vice President of Development, Supermassive Games</figcaption>
+      </figure>
+      <figure>
+        <blockquote><p>“The fact that he knows games inside and out was a bonus for us, but I believe Frank could keep any large organisation operating at peak efficiency, in any area of the tech business.”</p></blockquote>
+        <figcaption><b>Paul Glancey</b>Game design and production leader, worked together at Electronic Arts</figcaption>
+      </figure>
+    </div>
+    <p class="said-more"><a href="https://www.linkedin.com/in/ftindle/details/recommendations/" target="_blank" rel="noopener">All 13 recommendations on LinkedIn</a></p>
   </div>
 </section>
 
