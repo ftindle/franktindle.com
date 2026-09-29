@@ -134,7 +134,7 @@ a{color:inherit}
 .when .proof{margin-top:auto;padding-top:.65rem;border-top:1px solid var(--line);
   font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;line-height:1.6;color:var(--ink)}
 .when .proof b{color:var(--brass);font-weight:500}
-.ways{display:grid;gap:1.5rem 2.25rem;margin-top:1.75rem;padding-top:1.5rem;border-top:2px solid var(--brass)}
+.ways{display:grid;gap:1.5rem 2.25rem;margin-top:clamp(2rem,4vw,2.75rem);padding-top:1.5rem;border-top:2px solid var(--brass)}
 @media(min-width:36rem){.ways{grid-template-columns:repeat(2,1fr)}}
 @media(min-width:64rem){.ways{grid-template-columns:repeat(4,1fr)}}
 .ways h3{font-family:var(--mono);font-size:.74rem;font-weight:500;letter-spacing:.12em;text-transform:uppercase;
@@ -221,7 +221,7 @@ a{color:inherit}
 }
 
 /* three named quotes from public LinkedIn recommendations */
-.said{padding-block:clamp(1.75rem,3.5vw,2.5rem);border-top:1px solid var(--line)}
+.said{margin-top:clamp(2rem,4vw,2.75rem)}
 .said-grid{display:grid;gap:1.75rem;margin-top:1rem;align-items:start}
 @media(min-width:56rem){.said-grid{grid-template-columns:repeat(3,1fr);gap:2.5rem}}
 .said figure{display:grid;gap:.7rem;align-content:start;border-left:2px solid var(--accent-ink);padding-left:1.1rem}
@@ -238,16 +238,16 @@ a{color:inherit}
   <div class="wrap hero-grid">
    <div>
     <div class="who">
-      <a href="https://www.linkedin.com/in/ftindle" target="_blank" rel="noopener" title="Frank Tindle on LinkedIn"><img src="https://franktindle.com/frank-tindle.jpg" alt="Frank Tindle on LinkedIn" width="112" height="112"></a>
+      <a href="https://www.linkedin.com/in/ftindle" target="_blank" rel="noopener" title="Frank Tindle on LinkedIn" data-goatcounter-click="click-linkedin-photo"><img src="https://franktindle.com/frank-tindle.jpg" alt="Frank Tindle on LinkedIn" width="112" height="112"></a>
       <p class="eyebrow">Frank Tindle · IT, Facilities &amp; Operations</p>
     </div>
     <h1>The best compliment operations can get is that <em>nobody noticed</em>.</h1>
     <p class="standfirst">Thirty-one years running IT, security, buildings and procurement for businesses that are changing shape. Grow fast enough, or shrink fast enough, and your operation becomes the thing holding you back. I stop that happening.</p>
     <p class="avail">Available from 6 October 2026 <span>Interim · Fractional · The right permanent role</span></p>
     <div class="hero-actions">
-      <a class="btn btn-solid" href="https://bookings.cloud.microsoft/bookwithme/user/61244ec64a384a03bab0bd0f76595756%40franktindle.com?anonymous&amp;ismsaljsauthenabled" target="_blank" rel="noopener">Book a call</a>
-      <a class="btn btn-ghost" href="https://www.linkedin.com/in/ftindle" target="_blank" rel="noopener">LinkedIn</a>
-      <a class="btn btn-ghost js-email" href="https://bookings.cloud.microsoft/bookwithme/user/61244ec64a384a03bab0bd0f76595756%40franktindle.com?anonymous&amp;ismsaljsauthenabled">Email me</a>
+      <a class="btn btn-solid" href="https://bookings.cloud.microsoft/bookwithme/user/61244ec64a384a03bab0bd0f76595756%40franktindle.com?anonymous&amp;ismsaljsauthenabled" target="_blank" rel="noopener" data-goatcounter-click="click-book-hero">Book a call</a>
+      <a class="btn btn-ghost" href="https://www.linkedin.com/in/ftindle" target="_blank" rel="noopener" data-goatcounter-click="click-linkedin-hero">LinkedIn</a>
+      <a class="btn btn-ghost js-email" href="https://bookings.cloud.microsoft/bookwithme/user/61244ec64a384a03bab0bd0f76595756%40franktindle.com?anonymous&amp;ismsaljsauthenabled" data-goatcounter-click="click-email-hero">Email me</a>
     </div>
    </div>
    <aside class="panel" aria-label="At a glance">
@@ -313,6 +313,25 @@ a{color:inherit}
       </article>
     </div>
 
+    <div class="said" id="said">
+      <p class="eyebrow">In their words</p>
+      <div class="said-grid">
+        <figure>
+          <blockquote><p>“When we were looking for someone to head up IT in the early days of Supermassive Games, he was the first person I thought of.”</p></blockquote>
+          <figcaption><b>Jonathan Amor</b>VP Strategic Initiatives, Supermassive Games</figcaption>
+        </figure>
+        <figure>
+          <blockquote><p>“He quietly builds a solid, secure platform for the people around him to work on.”</p></blockquote>
+          <figcaption><b>Simon Harris</b>Vice President of Development, Supermassive Games</figcaption>
+        </figure>
+        <figure>
+          <blockquote><p>“The fact that he knows games inside and out was a bonus for us, but I believe Frank could keep any large organisation operating at peak efficiency, in any area of the tech business.”</p></blockquote>
+          <figcaption><b>Paul Glancey</b>Game design and production leader, worked together at Electronic Arts</figcaption>
+        </figure>
+      </div>
+      <p class="said-more"><a href="https://www.linkedin.com/in/ftindle/details/recommendations/" target="_blank" rel="noopener" data-goatcounter-click="click-recommendations">All 13 recommendations on LinkedIn</a></p>
+    </div>
+
     <div class="ways">
       <div><h3>A fixed project</h3><p>An office move, an integration, a cost-out, a security review. Scoped, priced, with an end date.</p></div>
       <div><h3>A day or two a week</h3><p>Your IT or operations director, fractionally. For 30 to 400 people who’ve outgrown ad-hoc IT: run by whoever knows most, and nobody’s actual job.</p></div>
@@ -327,27 +346,6 @@ a{color:inherit}
       <details><summary>When it goes wrong</summary><p>March 2020: an office-only culture, no VPN and no spare laptops. Ninety per cent of the studio were working from home inside two weeks, every machine encrypted inside five. A full-site power cut on a Sunday, every desktop back by the evening. A cloud supplier that ceased trading at a few days’ notice, re-homed in five working days with no fees and the discount intact.</p></details>
       <details><summary>Outside games</summary><p>Most of this happened in games, which is a decent stress test: launch dates that don’t move, enormous data, IP that people actively try to steal. None of it is specific to games. A lease is a lease, and a software vendor will overcharge anybody.</p></details>
     </div>
-  </div>
-</section>
-
-<section class="section said" id="said">
-  <div class="wrap">
-    <p class="eyebrow">In their words</p>
-    <div class="said-grid">
-      <figure>
-        <blockquote><p>“When we were looking for someone to head up IT in the early days of Supermassive Games, he was the first person I thought of.”</p></blockquote>
-        <figcaption><b>Jonathan Amor</b>VP Strategic Initiatives, Supermassive Games</figcaption>
-      </figure>
-      <figure>
-        <blockquote><p>“He quietly builds a solid, secure platform for the people around him to work on.”</p></blockquote>
-        <figcaption><b>Simon Harris</b>Vice President of Development, Supermassive Games</figcaption>
-      </figure>
-      <figure>
-        <blockquote><p>“The fact that he knows games inside and out was a bonus for us, but I believe Frank could keep any large organisation operating at peak efficiency, in any area of the tech business.”</p></blockquote>
-        <figcaption><b>Paul Glancey</b>Game design and production leader, worked together at Electronic Arts</figcaption>
-      </figure>
-    </div>
-    <p class="said-more"><a href="https://www.linkedin.com/in/ftindle/details/recommendations/" target="_blank" rel="noopener">All 13 recommendations on LinkedIn</a></p>
   </div>
 </section>
 
@@ -366,8 +364,8 @@ a{color:inherit}
       <h2>Half an hour, no pitch.</h2>
       <p>Tell me what’s going on and I’ll tell you honestly whether I can help. Recruiters welcome - interim, fractional or permanent.</p>
       <div class="hero-actions" style="margin-top:0">
-        <a class="btn btn-solid" href="https://bookings.cloud.microsoft/bookwithme/user/61244ec64a384a03bab0bd0f76595756%40franktindle.com?anonymous&amp;ismsaljsauthenabled" target="_blank" rel="noopener">Book a slot</a>
-        <a class="btn btn-ghost js-email" href="https://bookings.cloud.microsoft/bookwithme/user/61244ec64a384a03bab0bd0f76595756%40franktindle.com?anonymous&amp;ismsaljsauthenabled">Email me</a>
+        <a class="btn btn-solid" href="https://bookings.cloud.microsoft/bookwithme/user/61244ec64a384a03bab0bd0f76595756%40franktindle.com?anonymous&amp;ismsaljsauthenabled" target="_blank" rel="noopener" data-goatcounter-click="click-book-closing">Book a slot</a>
+        <a class="btn btn-ghost js-email" href="https://bookings.cloud.microsoft/bookwithme/user/61244ec64a384a03bab0bd0f76595756%40franktindle.com?anonymous&amp;ismsaljsauthenabled" data-goatcounter-click="click-email-closing">Email me</a>
       </div>
     </div>
   </div>
@@ -375,10 +373,10 @@ a{color:inherit}
 
 <footer class="foot">
   <div class="wrap">
-    <span>© <span id="yr">2026</span> Frank Tindle</span>
+    <span>© <span id="yr">2026</span> Frank Tindle · Visits counted without cookies</span>
     <span style="display:flex;gap:1.5rem;flex-wrap:wrap">
-      <a href="https://www.linkedin.com/in/ftindle">LinkedIn</a>
-      <a class="js-email" data-show href="https://bookings.cloud.microsoft/bookwithme/user/61244ec64a384a03bab0bd0f76595756%40franktindle.com?anonymous&amp;ismsaljsauthenabled">Email</a>
+      <a href="https://www.linkedin.com/in/ftindle" data-goatcounter-click="click-linkedin-footer">LinkedIn</a>
+      <a class="js-email" data-show href="https://bookings.cloud.microsoft/bookwithme/user/61244ec64a384a03bab0bd0f76595756%40franktindle.com?anonymous&amp;ismsaljsauthenabled" data-goatcounter-click="click-email-footer">Email</a>
     </span>
   </div>
 </footer>
@@ -397,5 +395,8 @@ document.getElementById('yr').textContent = new Date().getFullYear();
   });
 })();
 </script>
+<!-- Visit counting: GoatCounter. No cookies, nothing stored on the visitor's device. -->
+<script data-goatcounter="https://fgt.goatcounter.com/count"
+        async src="https://gc.zgo.at/count.js"></script>
 </body>
 </html>
