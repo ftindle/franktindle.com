@@ -108,6 +108,13 @@ both growth and contraction, office moves and estates, business continuity,
 cyber and physical security, procurement and vendor management, and applying AI
 to back-office work. The experience is from games; none of it is specific to games.
 
+In the words employers use: IT strategy and roadmap; service management (ITSM,
+ITIL-aligned); cybersecurity and cyber security; risk management and operational
+resilience; business continuity and disaster recovery; supplier and vendor management;
+stakeholder management; Microsoft 365, Entra ID and Intune; AI adoption and governance;
+opex and capex budget ownership; post-merger integration; multi-site operations;
+workplace strategy; facilities management; identity and access management.
+
 ## Contact
 
 - Website: https://franktindle.com
