@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Frank Tindle · IT &amp; Facilities Director · Interim, fractional, permanent</title>
-<meta name="description" content="IT, facilities and operations director. Thirty-one years running the operational half of growing businesses: IT, buildings, security, procurement. Available now for interim and fractional engagements, and the right permanent role. London / Guildford, open to relocating.">
+<title>Frank Tindle · IT &amp; Facilities Director · Permanent, interim, fractional</title>
+<meta name="description" content="IT, facilities and operations director. Thirty-one years running the operational half of growing businesses: IT, buildings, security, procurement. Available now for the right permanent role, and for interim and fractional engagements. London / Guildford, open to relocating.">
 <meta property="og:title" content="Frank Tindle · IT &amp; Facilities Director">
-<meta property="og:description" content="Thirty-one years running the operational half of growing businesses. Available now - interim, fractional, or the right permanent role.">
+<meta property="og:description" content="Thirty-one years running the operational half of growing businesses. Available now - the right permanent role, interim or fractional.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://franktindle.com">
 <meta property="og:image" content="https://franktindle.com/share.jpg">
@@ -178,6 +178,14 @@ a{color:inherit}
 .foot .wrap{display:flex;flex-wrap:wrap;gap:.75rem 1.5rem;justify-content:space-between}
 .foot a{text-decoration:none}
 .foot a:hover{color:var(--paper)}
+.foot .privacy-link{text-decoration:underline;text-underline-offset:3px}
+/* the privacy note stays out of the way until its link is followed */
+.privacy{display:none;flex-basis:100%;max-width:78ch;line-height:1.75;color:rgba(251,250,247,.72);letter-spacing:.03em}
+.privacy:target{display:block}
+.privacy b{color:var(--paper);font-weight:500}
+.privacy a,.privacy button{text-decoration:underline;text-underline-offset:3px}
+.privacy button{all:unset;cursor:pointer;color:var(--paper);text-decoration:underline;text-underline-offset:3px}
+.privacy button:focus-visible{outline:2px solid var(--brass);outline-offset:3px}
 
 /* accent on light grounds uses the darker coral for contrast */
 .section .eyebrow,.close .eyebrow,.when .proof b,.ways h3,.more summary::after{color:var(--accent-ink)}
@@ -243,7 +251,7 @@ a{color:inherit}
     </div>
     <h1>The best compliment operations can get is that <em>nobody noticed</em>.</h1>
     <p class="standfirst">Thirty-one years running IT, security, buildings and procurement for businesses that are changing shape. Grow fast enough, or shrink fast enough, and your operation becomes the thing holding you back. I stop that happening.</p>
-    <p class="avail">Available now <span>Interim · Fractional · The right permanent role</span></p>
+    <p class="avail">Available now <span>The right permanent role · Interim · Fractional</span></p>
     <div class="hero-actions">
       <a class="btn btn-solid" href="https://bookings.cloud.microsoft/bookwithme/user/61244ec64a384a03bab0bd0f76595756%40franktindle.com?anonymous&amp;ismsaljsauthenabled" target="_blank" rel="noopener" data-goatcounter-click="click-book-hero">Book a call</a>
       <a class="btn btn-ghost" href="https://www.linkedin.com/in/ftindle" target="_blank" rel="noopener" data-goatcounter-click="click-linkedin-hero">LinkedIn</a>
@@ -362,7 +370,7 @@ a{color:inherit}
     <div class="book" id="book">
       <p class="eyebrow">Next step</p>
       <h2>Half an hour, no pitch.</h2>
-      <p>Tell me what’s going on and I’ll tell you honestly whether I can help. Recruiters welcome - interim, fractional or permanent.</p>
+      <p>Tell me what’s going on and I’ll tell you honestly whether I can help. Recruiters welcome - permanent, interim or fractional.</p>
       <div class="hero-actions" style="margin-top:0">
         <a class="btn btn-solid" href="https://bookings.cloud.microsoft/bookwithme/user/61244ec64a384a03bab0bd0f76595756%40franktindle.com?anonymous&amp;ismsaljsauthenabled" target="_blank" rel="noopener" data-goatcounter-click="click-book-closing">Book a slot</a>
         <a class="btn btn-ghost js-email" href="https://bookings.cloud.microsoft/bookwithme/user/61244ec64a384a03bab0bd0f76595756%40franktindle.com?anonymous&amp;ismsaljsauthenabled" data-goatcounter-click="click-email-closing">Email me</a>
@@ -373,11 +381,12 @@ a{color:inherit}
 
 <footer class="foot">
   <div class="wrap">
-    <span>© <span id="yr">2026</span> Frank Tindle · Visits counted without cookies</span>
+    <span>© <span id="yr">2026</span> Frank Tindle · Visits logged · <a href="#privacy" class="privacy-link" data-goatcounter-click="click-privacy">Privacy and opt-out</a></span>
     <span style="display:flex;gap:1.5rem;flex-wrap:wrap">
       <a href="https://www.linkedin.com/in/ftindle" data-goatcounter-click="click-linkedin-footer">LinkedIn</a>
       <a class="js-email" data-show href="https://bookings.cloud.microsoft/bookwithme/user/61244ec64a384a03bab0bd0f76595756%40franktindle.com?anonymous&amp;ismsaljsauthenabled" data-goatcounter-click="click-email-footer">Email</a>
     </span>
+    <p class="privacy" id="privacy"><b>Privacy.</b> This site sets no cookies. Each visit is logged with its IP address, rough location, network provider, browser and the pages viewed, and Statcounter keeps a random ID in your browser’s storage so a return visit can be recognised. I use this to see how the site is used and whether it’s reaching the right people, which is my legitimate interest under UK GDPR. Two services do the counting: GoatCounter and Statcounter. Nothing is sold, shared or used for advertising. The detailed log covers the most recent 500 page views. To stop this browser being logged: <button type="button" id="optout">switch logging off</button>. To ask what’s held about you, or to have it removed, email <a class="js-email" data-show href="https://bookings.cloud.microsoft/bookwithme/user/61244ec64a384a03bab0bd0f76595756%40franktindle.com?anonymous&amp;ismsaljsauthenabled" data-goatcounter-click="click-email-privacy">me</a>.</p>
   </div>
 </footer>
 
@@ -395,6 +404,33 @@ document.getElementById('yr').textContent = new Date().getFullYear();
   });
 })();
 </script>
+<!-- Visit log: Statcounter. Loaded only if this browser has not opted out (see the privacy note in the footer).
+     The same switch also stops GoatCounter, through its own "skipgc" setting. -->
+<script>
+(function () {
+  var KEY = 'ft-no-log', btn = document.getElementById('optout');
+  function off() { try { return localStorage.getItem(KEY) === '1'; } catch (e) { return false; } }
+  function paint() { if (btn) btn.textContent = off() ? 'logging is off for this browser, switch it back on' : 'switch logging off'; }
+  if (btn) btn.addEventListener('click', function () {
+    try {
+      if (off()) { localStorage.removeItem(KEY); localStorage.removeItem('skipgc'); }
+      else {
+        localStorage.setItem(KEY, '1'); localStorage.setItem('skipgc', 't');
+        ['sc_medium_source', 'statcounter.com/localstorage/'].forEach(function (k) { localStorage.removeItem(k); });
+        Object.keys(sessionStorage).forEach(function (k) { if (k.indexOf('statcounter') === 0) sessionStorage.removeItem(k); });
+      }
+    } catch (e) {}
+    paint();
+  });
+  paint();
+  if (off()) return;
+  window.sc_project = 13365904; window.sc_invisible = 1; window.sc_security = 'aefdc8c6';
+  var s = document.createElement('script'); s.async = true;
+  s.src = 'https://www.statcounter.com/counter/counter.js';
+  document.body.appendChild(s);
+})();
+</script>
+<noscript><img src="https://c.statcounter.com/13365904/0/aefdc8c6/1/" alt="" width="1" height="1" referrerPolicy="no-referrer-when-downgrade"></noscript>
 <!-- Visit counting: GoatCounter. No cookies, nothing stored on the visitor's device. -->
 <script data-goatcounter="https://fgt.goatcounter.com/count"
         async src="https://gc.zgo.at/count.js"></script>
