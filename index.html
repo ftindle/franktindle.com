@@ -417,6 +417,7 @@ document.getElementById('yr').textContent = new Date().getFullYear();
       else {
         localStorage.setItem(KEY, '1'); localStorage.setItem('skipgc', 't');
         ['sc_medium_source', 'statcounter.com/localstorage/'].forEach(function (k) { localStorage.removeItem(k); });
+        ['', '; domain=.' + location.hostname.replace(/^www\./, '')].forEach(function (d) { document.cookie = 'sc_is_visitor_unique=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/' + d; });
         Object.keys(sessionStorage).forEach(function (k) { if (k.indexOf('statcounter') === 0) sessionStorage.removeItem(k); });
       }
     } catch (e) {}
@@ -425,6 +426,8 @@ document.getElementById('yr').textContent = new Date().getFullYear();
   paint();
   if (off()) return;
   window.sc_project = 13365904; window.sc_invisible = 1; window.sc_security = 'aefdc8c6';
+  /* keep Statcounter's visitor ID in browser storage, never in a cookie, so the privacy note stays true */
+  window.sc_client_storage = 'localStorage';
   var s = document.createElement('script'); s.async = true;
   s.src = 'https://www.statcounter.com/counter/counter.js';
   document.body.appendChild(s);
